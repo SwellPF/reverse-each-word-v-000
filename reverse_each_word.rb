@@ -7,6 +7,7 @@ def reverse_each_word(string)
     rev_word = word.reverse
     phrase << "#{rev_word} "
     end
+  binding.pry
   puts phrase.rstrip
  # binding.pry
  my_array2=string.split(/ /)
