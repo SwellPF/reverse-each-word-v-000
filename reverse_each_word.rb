@@ -13,7 +13,7 @@ def reverse_each_word(string)
  my_array2=string.split(/ /)
   phrase2 = ""
   my_array2.collect do |word|
-    phrase2 << "#{word} "
+    phrase2 << "#{word}.reverse "
   end
   phrase2.rstrip
 end
