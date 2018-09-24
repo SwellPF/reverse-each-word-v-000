@@ -9,7 +9,7 @@ def reverse_each_word(string)
     end
   binding.pry
   puts phrase.rstrip
- # binding.pry
+  binding.pry
  my_array2=string.split(/ /)
   phrase2 = ""
   my_array2.collect do |word|
