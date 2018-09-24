@@ -7,14 +7,13 @@ def reverse_each_word(string)
     rev_word = word.reverse
     phrase << "#{rev_word} "
     end
-  # binding.pry
+ 
   phrase.rstrip
-  # binding.pry
+
  my_array2=string.split(/ /)
   phrase2 = ""
   my_array2.collect do |word|
     phrase2 << "#{word} "
   end
- # binding.pry
-  puts phrase2.rstrip
+  phrase2.rstrip
 end
